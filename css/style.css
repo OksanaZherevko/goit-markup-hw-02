@@ -1,0 +1,57 @@
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.list {
+
+}
+
+.page-header {
+
+}
+
+.menu-link {
+
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color: yellow;
+}
+
+.contacts-link,
+.btn {
+
+}
+
+
+.list menu-list {
+
+}
+
+.page-title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 42px;
+  /* or 162% */
+  color: #FFFFFF;
+
+}
+.logotype {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+
+.site-nav .link {
+  text-transform: uppercase;
+}

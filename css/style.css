@@ -29,9 +29,10 @@ body {
 
 .page-title {
   font-weight: 900;
-  font-size: 26px;
-  line-height: 1.615;
+  font-size: 44px;
+  line-height: 1.364;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--white-color);
 }
 
@@ -137,14 +138,19 @@ border-radius: 4px;
   text-decoration: none;
 }
 
-.btn-portfolio:hover,
-.btn-portfolio:focus {
-  background: var(--accent-color);
-}
-
 .menu-link:hover,
 .menu-link:focus {
 color: var(--accent-color);
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--white-color);
+  background: var(--accent-color);
+}
+
+.menu-list .menu-link.current {
+  color: var(--accent-color);
 }
 
 .email-link,
@@ -213,6 +219,10 @@ background: var(--footer-color);
 
 .logo-web {
   color: var(--accent-color);
+}
+
+.contacts-list {
+  font-style: normal;
 }
 
 .contacts-link-adress,
